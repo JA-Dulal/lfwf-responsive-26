@@ -1,0 +1,341 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+@media (max-width:1170px){
+    .header-right ul li{
+        display: inline-block;
+        margin-left: -27px;
+    }
+}
+    
+@media (max-width:975px){
+    .header-right ul li{
+        display: inline-block;
+        margin-left: -54px;
+    }
+}
+
+
+@media (max-width:750px) {
+     
+    .header-right {
+        float: right;
+        width: 77%;}
+        .header-left {
+            float: left;
+            width: 18%;
+        }
+        .header-left {
+            float: left;
+            width: 18%;
+        }
+
+
+}
+
+
+@media (max-width:670px) {
+    .header-left {
+        float: left;
+        width: 18%;
+    }
+    .header-right ul li a {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        padding: 20px 30px;
+        line-height: 60px;
+        transition: .5s;
+    }
+      
+    .header-left span {
+        color: #fff;
+        font-size: 17px;
+    }
+    .header-left h1 {
+        color: #fff;
+        font-size: 25px;
+        margin-left: 19px;
+        font-weight: normal;
+        padding-top: 25px;
+    }
+}
+
+
+@media (max-width:550px) {
+    .header-right ul {
+        text-align: right;
+        margin: -20px -17px;}
+        .header-right ul li a {
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            font-size: 11px;
+            padding: 20px 30px;
+            line-height: 60px;
+            transition: .5s;
+        }
+        .header-left h1 {
+            color: #fff;
+            font-size: 13px;
+            margin-left: 19px;
+            font-weight: normal;
+            padding-top: 25px;
+        }
+
+        .header-left span {
+            color: #fff;
+            font-size: 11px;
+        }
+         
+    .header-right {
+        float: right;
+        width: 77%;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  .header-right ul li{
+    display: inline-block;
+    margin-left: -27px;
+}
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .header-right ul li{
+      display: inline-block;
+      margin-left: -27px;
+  }
+    
+  }
+
+  @media (min-width: 432px) and (max-width: 1024px){
+
+    .blog-item {
+      font-size: 10px;
+  }
+  .blog-item img {
+    height: 147px;
+    width: auto;
+}
+.service-item h2 {
+  margin: 7px 0px;
+  font-size: 14px;
+}
+.fixed-with {
+  width: 448px;
+  margin: auto;
+}
+.about h2 {
+  margin-top: 49px;
+  font-size: 26px;
+}
+.banner-caption h2 {
+  font-size: 27px;
+  color: #fff;
+}
+.banner-caption h1 {
+  color: #fff;
+  font-size: 16px;
+}
+.banner-caption h3 {
+  color: #FFF;
+  font-size: 11px;
+  border: 1px solid #fff;
+  display: inline-block;
+  padding: 8px 9px;
+  border-radius: 5px;
+}
+.fixed-with {
+  width: 448px;
+  margin: auto;
+}
+.banner {
+  background-image: url(https://i.ibb.co/LhJjLdG/header-bg01.jpg);
+  background-position: center;
+  padding: 77px 0;
+  background-size: cover;
+}
+
+  }
+
+
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .header-right ul li{
+      display: inline-block;
+      margin-left: -27px;
+  }
+  .fixed-with {
+    width: 759px;
+    margin: auto;
+}
+  .header-left span {
+    color: #fff;
+    font-size: 15px;
+}
+.header-left h1{
+  font-size: 22px;
+}
+.header-right ul li {
+  display: inline-block;
+  margin-left: -45px;
+}
+.header-right ul li {
+  display: inline-block;
+  margin-left: -50px;
+}
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .header-right ul li{
+      display: inline-block;
+      margin-left: -54px;
+  }
+  .header-right ul li {
+    display: inline-block;
+    margin-left: -45px;
+}
+.header-right ul li {
+  display: inline-block;
+  margin-left: -50px;
+}
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .banner {
+      background-image: url(https://i.ibb.co/LhJjLdG/header-bg01.jpg);
+      background-position: center;
+      padding: 57px 0;
+      background-size: cover;
+  }
+    .banner-caption h2 {
+      font-size: 27px;
+      color: #fff;
+  }
+  .banner-caption h1 {
+    color: #fff;
+    font-size: 16px;
+}
+.banner-caption h3 {
+  color: #FFF;
+  font-size: 11px;
+  border: 1px solid #fff;
+  display: inline-block;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+
+    .banner-caption h3 {
+      color: #FFF;
+      font-size: 11px;
+      border: 1px solid #fff;
+      display: inline-block;
+      padding: 8px 10px;
+      border-radius: 5px;
+  }
+    .header-right ul li {
+      display: inline-block;
+      margin-left: -50px;
+  }
+  .fixed-with {
+    width: 701px;
+    margin: auto;
+}
+.fixed-with {
+  width: 460px;
+  margin: auto;
+}
+    .header-right {
+      float: right;
+      width: 77%;}
+      .header-left {
+          float: left;
+          width: 18%;
+      }
+      .header-left {
+          float: left;
+          width: 18%;
+      }
+
+
+      .blog-item {
+        font-size: 10px;
+    }
+    .service-item {
+      float: left;
+      width: 20%;
+      text-align: center;
+      padding: 44px;
+      box-sizing: border-box;
+  }
+  .blog-item {
+    font-size: 10px;
+}
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    
+  }
+
+

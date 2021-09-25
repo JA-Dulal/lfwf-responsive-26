@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;  
+}
+
+
+.fixed-with{
+    width: 1270px;
+    margin: auto;
+}
+
+.fixed-with2{
+    width: 1500px;
+    margin: auto;
+}
+.fixed-with3{
+    width: 1000px;
+    margin: auto;
+}
+
+
+
+img{
+    max-width: 100%;
+}
+
+
+.center{
+    text-align: center;
+}
+.left{
+    text-align: left;
+}
+.header-right{
+    text-align: right;
+}
+
+
+
+
+/* header sction*/
+
+
+
+.header{
+    
+    background:  rgb(0, 168, 118);
+}
+
+
+.header-left h1{
+    color: #fff;
+    font-size: 40px;
+    margin-left: 50px;
+    font-weight: normal;
+    padding-top: 25px;
+
+}
+.header-left span{
+    color: #fff;
+    font-size: 30px;
+}
+
+
+
+
+.header img{
+    width:100px;
+    height: auto;
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+
+.header-right{
+   float: right;
+   width: 70%;
+}
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-right ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 30px;
+    line-height: 60px;
+    transition: .5s;
+}
+/* .header-right ul li a:hover{
+    background: rgb(173, 73, 73);
+    
+} */
+.banner{
+    background-image: url(https://i.ibb.co/LhJjLdG/header-bg01.jpg);
+    background-position: center;
+    padding: 300px 0;
+    background-size: cover;
+}
+.banner-caption h1{
+color: #fff;
+}
+.banner-caption h2{
+    font-size: 60px;
+    color: #fff;
+
+}
+.banner-caption h3{
+    color: #FFF;
+    font-size: 20px;
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+
+
+
+/*============  next type service item===============*/
+
+
+
+.service{
+margin: 17px;
+}
+.service-item{
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+    
+}
+
+.service-item span i{
+    font-size: 40px;
+    color: rgb(0, 168, 118);
+}
+
+.service-item h2{
+    margin: 20px 0px;
+}
+.about h2{
+    margin-top: 80px;
+    font-size: 40px;
+
+}
+.about p{
+    margin-top: 20px;
+}
+.service{
+    border-bottom: 2px solid green;
+    
+}
+.blog-contant-left-image img{
+ 
+    float: left;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+.blog-item h3{
+    margin: 10px 0px;
+}
+.blog-item img{
+    height: 370px;
+    width: auto;
+}
+.blog-item{
+    font-size: 20px;
+}
+
+/* contact saction*/
+
+
+
+.contact{
+    background-color: rgb(235, 233, 233);
+    
+   
+}
+.contact h1{
+    padding-top: 40px;
+}
+.contact p{
+    margin-top: 10px;
+}
+
+.contact-end{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.contact-link{
+    background-color: rgb(235, 233, 233);
+
+}
+
+
+/*  icona-saction*/
+
+
+.icin-sasction{
+    background-color: rgb(15, 175, 154);
+    text-align: center;
+}
+.icin-sasction li{ 
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px;
+    color: #fff;
+    font-size: 30px;
+
+}
+
+.footer{
+    background-color: rgb(14, 13, 29);
+    text-align: center;
+    padding: 15px ;
+    color: #fff;
+    font-size: 20px;
+}
+
+.contact-link i{
+    color:rgb(0, 168, 118);
+    font-size: 30px;
+}
+
+.icin-sasction li a{
+    color:#fff;
+    
+}
+.about-us{
+    font-size: 20px;
+}
